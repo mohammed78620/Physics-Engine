@@ -1,9 +1,6 @@
-﻿Source.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
-Source.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
-C:\C++Projects\Physics-Engine\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
-C:\C++Projects\Physics-Engine\Debug\Physics-Engine.exe : fatal error LNK1120: 7 unresolved externals
+﻿  Source.cpp
+C:\C++Projects\Physics-Engine\Physics-Engine\Header Files\Shader.h(56,35): warning C4101: 'e': unreferenced local variable
+C:\C++Projects\Physics-Engine\Physics-Engine\src\Source.cpp(22,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\C++Projects\Physics-Engine\Physics-Engine\src\Source.cpp(145,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Physics-Engine.vcxproj -> C:\C++Projects\Physics-Engine\Debug\Physics-Engine.exe

@@ -18,5 +18,20 @@
     <ClCompile Include="src\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lib\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\triangle.vert" />
+    <None Include="shaders\trianglef.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
